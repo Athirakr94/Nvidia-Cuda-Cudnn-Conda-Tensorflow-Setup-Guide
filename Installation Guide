@@ -11,3 +11,16 @@ $ wget https://kernel.ubuntu.com/~kernel-ppa/mainline/v5.18/amd64/linux-modules-
 $ sudo dpkg -i .deb
 !!!!!!Make sure your secure boot in UEFI is disabled.
 $ sudo reboot
+
+Step2: Download NVIDIA display driver from https://www.nvidia.com/Download/driverResults.aspx/190414/en-us/ for your graphics configuration.
+Step3: Install gcc and make
+sudo apt install gcc
+sudo apt install make
+
+Step4: Reboot and install the Nvidia diaplay driver
+sudo reboot now
+Open Ubuntu in Recovery mode. Select root user.
+sudo sh path/to/NvidiaDriver.run
+Once completed do again
+sudo reboot now
+

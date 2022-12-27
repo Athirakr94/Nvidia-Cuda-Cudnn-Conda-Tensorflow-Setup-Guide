@@ -11,6 +11,7 @@ $ wget https://kernel.ubuntu.com/~kernel-ppa/mainline/v5.18/amd64/linux-modules-
 $ sudo dpkg -i .deb
 !!!!!!Make sure your secure boot in UEFI is disabled.
 $ sudo reboot
+For Ubuntu 20.4 avoid kernel updation. Start from Step 2
 
 Step2: Download NVIDIA display driver from https://www.nvidia.com/Download/driverResults.aspx/190414/en-us/ for your graphics configuration.
 Step3: Install gcc and make
